@@ -29,7 +29,7 @@ class Example(QWidget):
 
     def draw_flag(self, qp):
         qp.setBrush(QColor(0, 0, 255))
-        a = randint(1, 30)
+        a = randint(1, 40)
         qp.drawEllipse(30, 90, a, a)
 
 
